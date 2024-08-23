@@ -9,6 +9,7 @@
 [[`arXiv`](https://arxiv.org/abs/2405.11582)] [[`BibTeX`](#citation)]
 
 ## 🔥 Updates
+* **2024/08/23**: Unofficial pretrained checkpoints for Llama-350M-PRepBN from [huggingface](https://huggingface.co/OpenEfficientAI/SLAB-Llama-350M/tree/main).
 * **2024/05/13**: Pre-trained models and codes of SLAB are released both in [Pytorch](https://github.com/xinghaochen/SLAB) and [Mindspore](https://github.com/mindspore-lab/models/tree/master/research/huawei-noah/SLAB).
 
 ## 📸 Overview
@@ -176,6 +177,8 @@ TBD
 ```
 
 ### Evaluation
+
+Download the unofficial pretrained checkpoints for Llama-350M-PRepBN from [huggingface](https://huggingface.co/OpenEfficientAI/SLAB-Llama-350M/tree/main).
 
 ```shell
 python evaluation.py --ckpt <checkpoint-path>
