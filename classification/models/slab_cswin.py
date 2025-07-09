@@ -21,7 +21,7 @@ import numpy as np
 import time
 from einops import rearrange
 
-from models.prepbn import LinearNorm, RepBN
+from .prepbn import LinearNorm, RepBN
 
 linearnorm = partial(LinearNorm, norm1=nn.LayerNorm, norm2=RepBN, step=120000)
 

@@ -8,7 +8,7 @@ from timm.models.registry import register_model
 from timm.models.vision_transformer import _cfg
 from einops import rearrange
 
-from models.prepbn import LinearNorm, RepBN
+from .prepbn import LinearNorm, RepBN
 
 ln = partial(nn.LayerNorm, eps=1e-6)
 linearnorm = partial(LinearNorm, norm1=ln, norm2=RepBN)

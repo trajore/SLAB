@@ -12,7 +12,7 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from einops import rearrange
 from functools import partial
 
-from models.prepbn import RepBN, LinearNorm
+from .prepbn import RepBN, LinearNorm
 
 # import seaborn as sns; sns.set()
 # import matplotlib.pyplot as plt

@@ -15,7 +15,7 @@ WindowProcess = None
 WindowProcessReverse = None
 print("[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.")
 
-from models.prepbn import RepBN, LinearNorm
+from .prepbn import RepBN, LinearNorm
 
 ln = nn.LayerNorm
 linearnorm = partial(LinearNorm, norm1=ln, norm2=RepBN)
